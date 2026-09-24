@@ -19,5 +19,5 @@ void main(){
         printf("El PID de mi hijo es: %d\n", pid_hijo);
 
     }
-     exit(0);
+    exit(0);
 }
