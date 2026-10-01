@@ -22,8 +22,8 @@ void main()
             for (int i = 101; i <= 200; i++){suma += i;}
             printf("Soy el proceso 3 y he realizado la suma de los numeros 101..200 y el resultado es: %d\n", suma);
         }else{
-            wait(NULL);
-            wait(NULL);
+            p2 = wait(NULL);
+            p3 = wait(NULL);
             printf("Todos los cálculos han finalizado.\n");
         }
     }

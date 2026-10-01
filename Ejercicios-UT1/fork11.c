@@ -37,4 +37,8 @@ void main() {
     wait(NULL);
     exit(0);
 }
-// a)
+// a) El orden de ejecución de los procesos no siempre es el mismo, pueden existir 3 formas de que este proceso termine:
+// P1 → P2 → P3 → P4
+// P1 → P3 → P2 → P4
+// P1 → P3 → P4 → P2
+// Teniendo en cuenta que el orden de  ejecución de los procesos es de derecha a izquierda.
