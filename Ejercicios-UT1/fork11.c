@@ -22,8 +22,6 @@ void main() {
         pid3 = fork();
         if (pid3 == 0) {
             printf("Soy el proceso 3 y mi PID es: %d\n", getpid());
-            fflush(stdout);
-
             
             pid4 = fork();
             if (pid4 == 0) {
