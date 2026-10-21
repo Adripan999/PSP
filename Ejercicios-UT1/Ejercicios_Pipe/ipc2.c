@@ -8,7 +8,7 @@
 void main(){
     int fd[2];
     pid_t pid;
-    char entrada[100];
+    int entrada[100];
     int suma = 0;
 
     pipe(fd);
