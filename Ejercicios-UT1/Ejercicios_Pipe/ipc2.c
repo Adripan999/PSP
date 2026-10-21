@@ -8,7 +8,7 @@
 void main(){
     int fd[2];
     pid_t pid;
-    int entrada[100];
+    char entrada[100];
     int suma = 0;
 
     pipe(fd);
@@ -22,7 +22,7 @@ void main(){
             read(fd[0], entrada, sizeof(entrada));
  
             if (entrada[0] != '+'){
-                suma = suma + atoi(entrada);
+                suma += atoi(entrada);
             }
         } while (entrada[0] != '+');
  
