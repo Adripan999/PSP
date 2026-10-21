@@ -30,5 +30,4 @@ void main(){
         close(fd[1]);
         wait(NULL);
     }
-    
 }
