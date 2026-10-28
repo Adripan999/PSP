@@ -29,7 +29,6 @@ void main(){
         printf("Recibido caracter +\n");
         printf("La suma total es igual a: %d\n", suma);
         close(fd[0]);
-        exit(0);
     }else {
         close(fd[0]);
  
