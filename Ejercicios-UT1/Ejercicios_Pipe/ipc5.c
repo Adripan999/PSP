@@ -5,9 +5,9 @@
  
 void main()
 {
-    int pipe1[2]; // P2 -> P1 (DNI)
-    int pipe2[2]; // P1 -> P2 (letra)
-    int pid;
+    int pipe1[2]; 
+    int pipe2[2]; 
+    pid_t pid;
     int dni;
     char letra;
     char letras[] = "TRWAGMYFPDXBNJZSQVHLCKE";
